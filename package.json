@@ -4,7 +4,7 @@
   "description": "poll psdirect, open browser if stock is found",
   "main": "ps5.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node ps5.js"
   },
   "repository": {
     "type": "git",
