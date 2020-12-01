@@ -2,7 +2,6 @@ let fetch = require('node-fetch');
 let player = require('play-sound')(opts = {})
 let open = require('open');
 
-// digital
 let url = "https://api.direct.playstation.com/commercewebservices/ps-direct-us/users/anonymous/products/productList?fields=BASIC&productCodes="
 let urlDigital = `${url}3005817`
 let urlPhysical = `${url}3005816`
@@ -56,7 +55,7 @@ function ping() {
 
     setTimeout(function () {
         ping()
-    }, (minute * 3) / 2)
+    }, minute * 1);
 }
 
 ping();
