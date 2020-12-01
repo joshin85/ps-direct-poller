@@ -1,0 +1,24 @@
+{
+  "name": "ps-direct-poller",
+  "version": "1.0.0",
+  "description": "poll psdirect, open browser if stock is found",
+  "main": "ps5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshin85/ps-direct-poller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshin85/ps-direct-poller/issues"
+  },
+  "homepage": "https://github.com/joshin85/ps-direct-poller#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "open": "^7.3.0",
+    "play-sound": "^1.1.3"
+  }
+}
